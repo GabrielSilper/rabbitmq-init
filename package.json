@@ -1,0 +1,16 @@
+{
+  "name": "rabbitmq-init",
+  "version": "1.0.0",
+  "description": "Repositório para estudos de RabbitMQ",
+  "main": "index.js",
+  "scripts": {
+    "start:consumer": "node ./consumer/receive.js",
+    "send": "node ./producer/send.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
